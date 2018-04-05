@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.countryfacts.TitleActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/world_map"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/card_main_primary_light"
+        android:elevation="5dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:id="@+id/title_linear">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#757575"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:elevation="2dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Facts"
+                android:textColor="#ff5722"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:elevation="2dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quiz"
+                android:gravity="center"
+                android:textColor="#757575"
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:elevation="2dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@id/title_linear"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_black_layout">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Begin"
+                android:textColor="#fff"
+                android:onClick="onBeginQuiz"
+                android:backgroundTint="@color/colorAccent"
+                style="?android:attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

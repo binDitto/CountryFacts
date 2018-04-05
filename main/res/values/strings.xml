@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Country Facts</string>
+
+    <!--QUESTIONS-->
+
+    <!--RADIO BUTTON-->
+    <string name="question0">Which country currently holds the largest population on Earth?</string>
+    <string name="question0_answer_0">China</string>
+    <string name="question0_answer_1">India</string>
+    <string name="question0_answer_2">United States</string>
+    <string name="question0_answer_3">Mexico</string>
+
+    <!--RADIO BUTTON-->
+    <string name="question1">Which country is marked?</string>
+    <string name="question1_answer_0">Myanmar</string>
+    <string name="question1_answer_1">Cambodia</string>
+    <string name="question1_answer_2">China</string>
+    <string name="question1_answer_3">Laos</string>
+
+    <!--EDIT TEXT-->
+    <string name="question2">The official language of Angola is...</string>
+    <string name="question2_answer_0">Portuguese</string>
+
+    <!--CHECK BOX-->
+    <string name="question3">What 3 facts are true about Germany?</string>
+    <string name="question3_answer_0">It\'s illegal to run out of fuel in the Autobahn.</string>
+    <string name="question3_answer_1">College education is free even for internationals.</string>
+    <string name="question3_answer_2">Fanta originated there as a result of the 2nd World War.</string>
+    <string name="question3_answer_3">Nudity is legal.</string>
+    <string name="question3_answer_4">Is the healthiest country in the world for diet.</string>
+
+    <!--RADIO BUTTON-->
+    <string name="question4">What is the official name and language of the country marked?</string>
+    <string name="question4_answer_0">Chad - Arabic &amp; French</string>
+    <string name="question4_answer_1">Myanmar - Burmese</string>
+    <string name="question4_answer_2">Belarus - Belarusian &amp; Russian</string>
+    <string name="question4_answer_3">Turkey - Turkish</string>
+
+    <!--CHECK BOX-->
+    <string name="question5">What 3 facts are true about Chad?</string>
+    <string name="question5_answer_0">It\'s official language is Arabic &amp; French.</string>
+    <string name="question5_answer_1">People use Kakaki, a long metal trumpet, in traditional ceremonial music.</string>
+    <string name="question5_answer_2">Has one of the highest maternal mortality rates in the world.</string>
+    <string name="question5_answer_3">Most populous country in Africa.</string>
+    <string name="question5_answer_4">Home to Nollywood.</string>
+
+    <!--EDIT TEXT-->
+    <string name="question6">What\'s the name of the currency used in Cambodia?</string>
+    <string name="question6_answer_0">Riel</string>
+
+    <!--RADIO BUTTON-->
+    <string name="question7">Tourist\'s most favourite country is...</string>
+    <string name="question7_answer_0">France</string>
+    <string name="question7_answer_1">Italy</string>
+    <string name="question7_answer_2">United States</string>
+    <string name="question7_answer_3">Mexico</string>
+
+    <!--CHECK BOX-->
+    <string name="question8">Which 3 countries below are located in the Africa?</string>
+    <string name="question8_answer_0">Angola</string>
+    <string name="question8_answer_1">Mali</string>
+    <string name="question8_answer_2">Nigeria</string>
+    <string name="question8_answer_3">Cambodia</string>
+    <string name="question8_answer_4">Bhutan</string>
+
+    <!--RADIO BUTTON-->
+    <string name="question9">The official language of Myanmar is...</string>
+    <string name="question9_answer_0">Burmese</string>
+    <string name="question9_answer_1">Dzongkha</string>
+    <string name="question9_answer_2">Kyrgyz</string>
+    <string name="question9_answer_3">Nepali</string>
+    <string name="arrow_text_button">▶</string>bjg
+
+    <!--Compliments-->
+    <string name="c0">Your knowledge on this subject is exceptional\n\nGreat Job!</string>
+    <string name="c1">Decent, but you could\'ve done better!</string>
+    <string name="c2">Hmm..\n\nI think we need to study more.</string>
+</resources>
