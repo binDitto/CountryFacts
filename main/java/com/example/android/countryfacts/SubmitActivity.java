@@ -65,7 +65,7 @@ public class SubmitActivity extends AppCompatActivity {
             tryAgainButton.setTextColor(getResources().getColor(R.color.colorPrimary));
         } else {
             mainLin.setBackgroundColor(getResources().getColor(R.color.secondaryText));
-            compText.setText(comps[1]);
+            compText.setText(comps[2]);
             congratsText.setText("Hmm...");
             tryAgainButton.setVisibility(View.VISIBLE);
             tryAgainButton.setTextColor(getResources().getColor(R.color.secondaryText));
