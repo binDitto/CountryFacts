@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class SubmitActivity extends AppCompatActivity {
     public int score;
     public String name;
-    private String[] comps = new String[2];
+    private String[] comps = new String[3];
     public TextView compText, congratsText, nameText, scoreText, scoreWords;
     public LinearLayout mainLin;
     public Button tryAgainButton;
@@ -32,7 +32,7 @@ public class SubmitActivity extends AppCompatActivity {
         tryAgainButton = (Button) findViewById(R.id.try_again_button);
 
         // Set list of compliments array
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 3; i++) {
             comps[i] = getResources().getString(getResources().getIdentifier("c" + i, "string", getPackageName()));
         }
 
